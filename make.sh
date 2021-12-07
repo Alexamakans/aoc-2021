@@ -3,7 +3,7 @@ echo -n "Enter the day (XX): "
 read day
 mkdir day$day
 cd day$day
-touch input.txt
+aocd $day 2021 > input.txt
 touch input_test.txt
 
 mkdir part2
