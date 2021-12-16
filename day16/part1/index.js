@@ -1,4 +1,3 @@
-const { group } = require('console');
 const fs = require('fs');
 
 const testPath = '../input_test.txt';
@@ -39,8 +38,6 @@ function exec(path) {
 		binary = binary.substring(n);
 		return took;
 	}
-
-	console.log(binary);
 
 	const packets = [];
 	for (let i = 0; i < binary.length; i++) {
